@@ -3,7 +3,7 @@ using System.Web.Mvc;
 
 namespace ActionControllers
 {
-    public class ActionControllerSetup
+    public class ActionControllers
     {
         public static void Setup(Action<IActionControllerBuilder> action)
         {
