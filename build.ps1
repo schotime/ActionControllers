@@ -7,7 +7,7 @@
 Properties {
     $build_dir = Split-Path $psake.build_script_file    
     $build_artifacts_dir = "$build_dir\build\"
-    $solution_file = "$build_dir\src\ActionControllers.sln"
+    $solution_file = "$build_dir\src\ActionControllers\ActionControllers.csproj"
 }
 
 FormatTaskName (("-"*25) + "[{0}]" + ("-"*25))
