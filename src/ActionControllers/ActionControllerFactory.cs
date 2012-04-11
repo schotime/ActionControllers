@@ -32,6 +32,8 @@ namespace ActionControllers
                 Type t;
                 if (_actionTypes.TryGetValue(key, out t))
                     actionInstance = _createController(t) as ActionController;
+                else
+                    return base.CreateController(requestContext, controllerName);
             }
             catch (Exception ex)
             {
