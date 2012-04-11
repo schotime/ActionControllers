@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionControllers", "ActionControllers\ActionControllers.csproj", "{7F2A50F3-47B9-4AA9-8CC1-50C68B700632}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionControllers.Example", "ActionControllers.Example\ActionControllers.Example.csproj", "{E4FB9440-79E3-4008-80E0-31F4F167089A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{7F2A50F3-47B9-4AA9-8CC1-50C68B700632}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F2A50F3-47B9-4AA9-8CC1-50C68B700632}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F2A50F3-47B9-4AA9-8CC1-50C68B700632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4FB9440-79E3-4008-80E0-31F4F167089A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4FB9440-79E3-4008-80E0-31F4F167089A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4FB9440-79E3-4008-80E0-31F4F167089A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4FB9440-79E3-4008-80E0-31F4F167089A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
