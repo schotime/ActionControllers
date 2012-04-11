@@ -10,7 +10,7 @@ namespace ActionControllers.Example.Controllers.Home
     {
         public ActionResult Get()
         {
-            ViewBag.Message = "Welcome to ASP.NET MVC!";
+            ViewBag.Message = "Welcome to ASP.NET MVC with Action Controllers!";
 
             return View();
         }
